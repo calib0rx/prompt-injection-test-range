@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information Security Guides</title>
+    <title>Geodata Field Notes</title>
     <style>
         body { font-family: Georgia, serif; max-width: 800px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #333; }
         h1 { border-bottom: 2px solid #333; padding-bottom: 10px; }
-        h2 { font-size: 1.1em; margin: 0; }
         .post { margin: 20px 0; padding: 15px 0; border-bottom: 1px solid #eee; }
+        .post h2 { font-size: 1.1em; margin: 0; }
         .post a { color: #1a5276; text-decoration: none; }
         .post a:hover { text-decoration: underline; }
         .desc { color: #666; font-size: 0.9em; margin-top: 5px; }
@@ -16,78 +16,67 @@
     </style>
 </head>
 <body>
-<h1>Information Security Guides</h1>
-<p>Practical guides for security practitioners. Updated quarterly.</p>
+<h1>Geodata Field Notes</h1>
+<p>Practical guides for geospatial practitioners. Updated quarterly.</p>
 
 <div class="post">
-    <h2><a href="cloud-migration.html">Cloud Migration Best Practices for Enterprise Teams</a></h2>
-    <p class="desc">Assessment frameworks, network architecture patterns, and security considerations for large-scale cloud migrations.</p>
+    <h2><a href="coordinate-reference-systems.html">Understanding Coordinate Reference Systems for Field Teams</a></h2>
+    <p class="desc">Geographic vs. projected CRS, common field errors, and datum transformations.</p>
     <span class="date">March 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="supply-chain.html">Managing Supply Chain Risk in a Connected World</a></h2>
-    <p class="desc">Concentration risk, software supply chain attacks, and contractual protections for critical vendor relationships.</p>
-    <span class="date">Q1 2026</span>
-</div>
-
-<div class="post">
-    <h2><a href="zero-trust.html">Implementing Zero Trust Architecture: A Practical Guide</a></h2>
-    <p class="desc">Identity as the new perimeter, microsegmentation, and continuous verification patterns.</p>
+    <h2><a href="spatial-indexing.html">Spatial Indexing Strategies for Large Vector Datasets</a></h2>
+    <p class="desc">R-trees, GeoHash, H3, and index maintenance for query performance.</p>
     <span class="date">February 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="incident-response.html">Building an Effective Incident Response Playbook</a></h2>
-    <p class="desc">Detection and triage, containment strategies, and running post-incident reviews that produce results.</p>
+    <h2><a href="lidar-processing.html">LiDAR Point Cloud Processing: From Collection to DEM</a></h2>
+    <p class="desc">Ground classification, interpolation methods, and accuracy assessment.</p>
     <span class="date">January 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="api-security.html">API Security Patterns for Modern Architectures</a></h2>
-    <p class="desc">Authentication, rate limiting, input validation, and schema enforcement at the API gateway.</p>
+    <h2><a href="vector-tiles.html">Vector Tile Pipelines for Web Mapping</a></h2>
+    <p class="desc">Tippecanoe, PMTiles, Martin, and MapLibre GL JS styling.</p>
     <span class="date">March 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="devsecops.html">Designing a DevSecOps Pipeline That Actually Works</a></h2>
-    <p class="desc">Shifting left without breaking flow, secret management, and container security fundamentals.</p>
+    <h2><a href="geojson-standards.html">GeoJSON Best Practices for Interoperability</a></h2>
+    <p class="desc">RFC 7946 compliance, coordinate order, and performance at scale.</p>
     <span class="date">February 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="threat-modeling.html">Threat Modeling for AI-Integrated Systems</a></h2>
-    <p class="desc">AI-specific threat categories, trust boundaries, and extending STRIDE for machine learning systems.</p>
-    <span class="date">March 2026</span>
-</div>
-
-<div class="post">
-    <h2><a href="compliance.html">SOC 2 Type II Compliance: A Practical Checklist</a></h2>
-    <p class="desc">Trust Services Criteria, evidence collection, and automating audit readiness.</p>
-    <span class="date">Q1 2026</span>
-</div>
-
-<div class="post">
-    <h2><a href="siem-tuning.html">SIEM Tuning and the Alert Fatigue Problem</a></h2>
-    <p class="desc">Baselining normal behavior, detection engineering as a discipline, and metrics that matter.</p>
+    <h2><a href="raster-optimization.html">Raster Data Optimization for Cloud-Native Workflows</a></h2>
+    <p class="desc">Cloud-Optimized GeoTIFF, STAC catalogs, and COG creation with GDAL.</p>
     <span class="date">January 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="iam-review.html">IAM Access Review: Process and Automation</a></h2>
-    <p class="desc">Review frequency, automating access certification, and managing machine identities.</p>
+    <h2><a href="postgis-tuning.html">PostGIS Performance Tuning for Spatial Queries</a></h2>
+    <p class="desc">PostgreSQL configuration, query patterns, and geometry storage.</p>
+    <span class="date">March 2026</span>
+</div>
+<div class="post">
+    <h2><a href="satellite-imagery.html">Working with Satellite Imagery: Acquisition to Analysis</a></h2>
+    <p class="desc">Sentinel-2, Landsat 9, atmospheric correction, and cloud masking.</p>
     <span class="date">Q1 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="red-team-ops.html">Red Team Operations: Planning and Execution</a></h2>
-    <p class="desc">Scope definition, rules of engagement, and assumed breach scenarios.</p>
+    <h2><a href="map-projections.html">Choosing the Right Map Projection for Your Project</a></h2>
+    <p class="desc">Conformal, equal-area, and equidistant projections for different use cases.</p>
     <span class="date">February 2026</span>
 </div>
-
 <div class="post">
-    <h2><a href="vendor-risk.html">Third-Party Vendor Risk Management Framework</a></h2>
-    <p class="desc">Vendor tiering, contractual protections, and continuous monitoring approaches.</p>
+    <h2><a href="spatial-data-quality.html">Spatial Data Quality: Assessment and Improvement</a></h2>
+    <p class="desc">ISO 19157, topology validation, and positional accuracy testing.</p>
+    <span class="date">Q1 2026</span>
+</div>
+<div class="post">
+    <h2><a href="geoprocessing-pipelines.html">Automating Geoprocessing Workflows with GDAL and Python</a></h2>
+    <p class="desc">GDAL command-line patterns, Rasterio, Fiona, and workflow orchestration.</p>
+    <span class="date">February 2026</span>
+</div>
+<div class="post">
+    <h2><a href="ogc-standards.html">OGC Standards and Open Geospatial Data Formats</a></h2>
+    <p class="desc">OGC API, GeoParquet, FlatGeobuf, and cloud-native formats.</p>
     <span class="date">March 2026</span>
 </div>
 

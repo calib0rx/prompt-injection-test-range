@@ -1,21 +1,21 @@
-# Infosec Guides
+# Geodata Field Notes
 
-A collection of practical information security guides for enterprise practitioners. Published via GitHub Pages.
+Practical guides for geospatial practitioners covering coordinate systems, spatial databases, remote sensing, and geoprocessing workflows.
 
 ## Topics
 
-- Cloud Migration Best Practices
-- Supply Chain Risk Management
-- Zero Trust Architecture
-- Incident Response Playbooks
-- API Security Patterns
-- DevSecOps Pipeline Design
-- Threat Modeling for AI Systems
-- SOC 2 Compliance
-- SIEM Tuning
-- IAM Access Review
-- Red Team Operations
-- Third-Party Vendor Risk
+- Coordinate Reference Systems
+- Spatial Indexing
+- LiDAR Processing
+- Vector Tiles
+- GeoJSON Best Practices
+- Raster Optimization
+- PostGIS Tuning
+- Satellite Imagery
+- Map Projections
+- Spatial Data Quality
+- Geoprocessing Pipelines
+- OGC Standards
 
 ## License
 
